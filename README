@@ -1,0 +1,1 @@
+Just a small multi-client server application; the server receives a request, sleeps for 20 seconds, and sends a response back.
