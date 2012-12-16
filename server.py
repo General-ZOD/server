@@ -5,7 +5,7 @@ def process_conn(connection, address):
     data_recvd = connection.recv(2048);
     print "Data received: \n", data_recvd;
     print "Going into sleep mode";
-    time.sleep(60);
+    time.sleep(20);
     print "waking up";
     data_sent = "Your data was well received,";
     connection.sendall(data_sent);
